@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         VMS route search
-// @namespace    local.vms
+// @namespace    https://github.com/fullmoon2009/VMS_route
 // @version      1.5
 // @match        http://10.10.20.199:8008/facilitiesProperty/vms/ifsc*
 // @grant        none
-// @updateURL    https://raw.githubusercontent.com/fullmoon2009/VMS-route/main/tampermonkey/VMSRoute.user.js
-// @downloadURL  https://raw.githubusercontent.com/fullmoon2009/VMS-route/main/tampermonkey/VMSRoute.user.js
+// @updateURL    https://raw.githubusercontent.com/fullmoon2009/VMS_route/main/tampermonkey/VMSRoute.user.js
+// @downloadURL  https://raw.githubusercontent.com/fullmoon2009/VMS_route/main/tampermonkey/VMSRoute.user.js
 // ==/UserScript==
 
 (() => {
@@ -776,3 +776,4 @@
 
 	// Your code here...
 })();
+
