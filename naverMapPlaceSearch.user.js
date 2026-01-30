@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         VMS route search
+// @name         Naver Map Place Search
 // @namespace    https://github.com/fullmoon2009/VMS_route
 // @version      1.1.2
 // @match        http://10.10.20.199:8008/facilitiesProperty/vms/ifsc*
@@ -724,4 +724,5 @@
 	tryHookMapConstructor('boot');
 	ensureOverlayUI();
 })();
+
 
