@@ -1,14 +1,13 @@
 // ==UserScript==
-// @name         NaverMap Place Search
-// @namespace    local
+// @name         VMS route search
+// @namespace    https://github.com/fullmoon2009/VMS_route
 // @version      1.1.2
-// @description  Draggable POI search overlay. Uses local proxy (127.0.0.1:8770/place) and FORCE-moves Naver map to selected result.
-// @match        http://10.10.20.199:8190/*
+// @match        http://10.10.20.199:8008/facilitiesProperty/vms/ifsc*
 // @grant        none
-// @run-at       document-start
-// @updateURL    https://raw.githubusercontent.com/fullmoon2009/VMS-route/main/tampermonkey/naverMapPlaceSearch.user.js
-// @downloadURL  https://raw.githubusercontent.com/fullmoon2009/VMS-route/main/tampermonkey/naverMapPlaceSearch.user.js
+// @updateURL    https://raw.githubusercontent.com/fullmoon2009/VMS_route/main/tampermonkey/naverMapPlaceSearch.user.js
+// @downloadURL  https://raw.githubusercontent.com/fullmoon2009/VMS_route/main/tampermonkey/naverMapPlaceSearch.user.js
 // ==/UserScript==
+
 
 (function () {
 	'use strict';
@@ -725,3 +724,4 @@
 	tryHookMapConstructor('boot');
 	ensureOverlayUI();
 })();
+
