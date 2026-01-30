@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name         VMS route search
-// @namespace    https://github.com/fullmoon2009/VMS_route
+// @name         VMS Route Search
+// @namespace    https://github.com/fullmoon2009/VMS_route/vms
 // @version      1.5
 // @match        http://10.10.20.199:8008/facilitiesProperty/vms/ifsc*
-// @grant        none
 // @updateURL    https://raw.githubusercontent.com/fullmoon2009/VMS_route/main/tampermonkey/VMSRoute.user.js
 // @downloadURL  https://raw.githubusercontent.com/fullmoon2009/VMS_route/main/tampermonkey/VMSRoute.user.js
 // ==/UserScript==
+
 
 (() => {
 	const ADD_PATH = '/fac/property/vmsIfsc/add';
@@ -776,4 +776,5 @@
 
 	// Your code here...
 })();
+
 
