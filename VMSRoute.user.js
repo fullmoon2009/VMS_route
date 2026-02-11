@@ -2,7 +2,7 @@
 // @name         VMS Route Search
 // @namespace    https://github.com/fullmoon2009/VMS_route/vms
 // @version      1.5
-// @match        http://10.10.20.199:8008/facilitiesProperty/vms/ifsc*
+// @match        http://10.10.20.199:8008/*
 // @updateURL    https://raw.githubusercontent.com/fullmoon2009/VMS_route/main/tampermonkey/VMSRoute.user.js
 // @downloadURL  https://raw.githubusercontent.com/fullmoon2009/VMS_route/main/tampermonkey/VMSRoute.user.js
 // ==/UserScript==
@@ -760,6 +760,7 @@
 
 	window.__VMS_REUSE_CACHE__ = reuseCache;
 })();
+
 
 
 
